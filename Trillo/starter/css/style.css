@@ -11,7 +11,9 @@
   --color-grey-dark-3: #999;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.6);
   --shadow-dark-2: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-  --transition: background-color 0.3s ease, color 0.3s ease; }
+  --transition: background-color 0.3s ease, color 0.3s ease;
+  --line: 
+; }
 
 * {
   margin: 0;
@@ -201,3 +203,11 @@ body {
   .gallery__photo {
     width: 100%;
     display: block; }
+
+.overview {
+  display: flex;
+  align-items: center;
+  border-bottom: var(--line); }
+  .overview__heading {
+    font-size: 2.25rem;
+    font-weight: 300; }
