@@ -90,7 +90,7 @@ body {
   border-radius: 5px; }
 
 .user-reviews {
-  background-color: yellowgreen;
+  background-color: var(--color-primary);
   flex: 1;
   display: flex; }
 
