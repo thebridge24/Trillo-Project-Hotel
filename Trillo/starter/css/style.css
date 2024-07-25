@@ -90,9 +90,9 @@ body {
   border-radius: 5px; }
 
 .user-reviews {
-  background-color: var(--color-primary);
   flex: 1;
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
 
 .logo {
   height: 3.25rem;
@@ -339,3 +339,9 @@ body {
     border: 3px solid var(--color-grey-light-1); }
     .recommend__photo:not(:last-child) {
       margin-right: -1.5rem; }
+
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-dark-2);
+  padding: 3rem;
+  margin-bottom: 3.5rem; }
